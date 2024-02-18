@@ -14,37 +14,37 @@ Explain the purpose of the analysis.Explain what financial information the data 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 ####
-* Balanced accuracy is used to evaluate the performance of a classifier when the datasets are imbalanced. In this case there are more instances of healthy loans rather than high risk loans. The balanced accuracy provides a more accurate measure of the classifier's performance across all classes, giving equal importance to each class.
+- Balanced accuracy is used to evaluate the performance of a classifier when the datasets are imbalanced. In this case there are more instances of healthy loans rather than high risk loans. The balanced accuracy provides a more accurate measure of the classifier's performance across all classes, giving equal importance to each class.
 
-* Precision: Precision is the ratio of correctly predicted positive observations to the total predicted positive observations. 
+- Precision: Precision is the ratio of correctly predicted positive observations to the total predicted positive observations. 
 
-* Recall(sensitivity): Recall is the ratio of correctly predicted positive observations to the all obervations in actual class. It measures the ability of the classifier to final all the positive samples. 
+- Recall(sensitivity): Recall is the ratio of correctly predicted positive observations to the all obervations in actual class. It measures the ability of the classifier to final all the positive samples. 
 
-* The macro avg is the average values of precision, recall, and F1-score. 
+- The macro avg is the average values of precision, recall, and F1-score. 
 
 ### Machine Learning Model 1: Description of Model 1 Accuracy, Precision, and Recall scores.
 ##### 
-*Balanced accuracy: 95.2%. The model provides 95.2% accuracy in overall preformance of the classifer across both clases (healthy and risky loans).
+- Balanced accuracy: 95.2%. The model provides 95.2% accuracy in overall preformance of the classifer across both clases (healthy and risky loans).
 
-*Precision: 92%. The model correctly predicts positive observations in both datasets. It predicts healthy loans with 100% precision and risky loans with 85% precision.  
+- Precision: 92%. The model correctly predicts positive observations in both datasets. It predicts healthy loans with 100% precision and risky loans with 85% precision.  
 
-*Recall: 95%. The model was 95% accurate in predicting the true positive values out of all the predicted positive values. 
+- Recall: 95%. The model was 95% accurate in predicting the true positive values out of all the predicted positive values. 
 
 
 ### Machine Learning Model 2: Description of Model 2 Accuracy, Precision, and Recall scores.
 #### 
-*Balanced accuracy: 99.3%. The model provides 99.3% accuracy in overall preformance of the classifer across both clases (healthy and risky loans).
+- Balanced accuracy: 99.3%. The model provides 99.3% accuracy in overall preformance of the classifer across both clases (healthy and risky loans).
 
-*Precision: 92%. The model correctly predicts positive observations in both datasets. It predicts healthy loans with 100% precision and risky loans with 84% precision.  
+- Precision: 92%. The model correctly predicts positive observations in both datasets. It predicts healthy loans with 100% precision and risky loans with 84% precision.  
 
-*Recall: 99%. The model was 99% accurate in predicting the true positive values out of all the predicted positive values. 
+- Recall: 99%. The model was 99% accurate in predicting the true positive values out of all the predicted positive values. 
 
 
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+- Which one seems to perform best? How do you know it performs best?
+- Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
 If you do not recommend any of the models, please justify your reasoning.
 
@@ -60,15 +60,15 @@ For this analysis, a lending company will want to create a model that classifies
 ####
 Model 1 - Unbalanced Confusion Matrix: 
 - True Positives: 18,663
-- *False Positives: 102*
-- *False Negatives: 56*
+- ***False Positives: 102***
+- ***False Negatives: 56***
 - True Negatives: 563
 
 
 Model 2 - Oversampled Balanced Confusion Matrix: 
 - True Positives: 18,639
-- *False Positives: 116*
-- *False Negatives: 4*
+- ***False Positives: 116***
+- ***False Negatives: 4***
 - True Negatives: 615
 
 ### 
